@@ -1,0 +1,32 @@
+REST:  REpresentational State Transfer  :this is a architectural style of creating APIs
+API:  Application Programing Interface:  software that allow to communicate
+two Application
+
+Examples like REST are GraphQL ,SOAP etc
+client send  https request(GET,Post,delete,put) to apis then api make request to server and then onwards
+as we have performed crud operation in mongo now we will do same thing with apis
+
+create ____post
+read_____  GET
+update________ put(complete data) , patch(only a part)
+delete_______- delete
+
+Rules for rest apis\
+there should be these above requests
+the endpoinnt of the api should not be changed
+
+patch:you need to send data only u want to update
+put: you need to send full object even you want to change a single entity
+
+
+
+
+
+
+
+
+
+
+
+
+
